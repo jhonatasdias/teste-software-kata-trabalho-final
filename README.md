@@ -85,7 +85,7 @@ Cada persona forneceu respostas mais contextuais e especializadas, aumentando a 
 >
 > 4. Explique por que cada caso é importante.
 
-![alt text](image.png)
+![alt text](./images/2-etapa.png.png)
 
 3. Gerar testes unitários Jest (primeiro round)
 
@@ -103,7 +103,7 @@ Cada persona forneceu respostas mais contextuais e especializadas, aumentando a 
 > - Dê nomes descritivos para os testes.
 > - Evite números mágicos: comente o porquê dos valores escolhidos.
 
-![alt text](image.png)
+![alt text](./images/3-etapa.png)
 
 4. Auditar cobertura e lacunas (prompt de inspeção)
 
@@ -116,7 +116,7 @@ Cada persona forneceu respostas mais contextuais e especializadas, aumentando a 
 > Sugira novos casos de teste específicos para cobrir cada branch faltante, usando a mesma estrutura da matriz de testes anterior. <br>
 > Depois gere apenas os novos testes Jest necessários.
 
-![alt text](image.png)
+![alt text](./images/4-etapa.png)
 
 5. Teste de Mutação com Stryker
 
@@ -165,7 +165,7 @@ Cada persona forneceu respostas mais contextuais e especializadas, aumentando a 
 > - Evite introduzir condicionais mais complexas do que já existem.
 > - Comece com pequenas refatorações locais (extração de funções nomeadas) antes de sugerir grandes mudanças de design.
 
-![alt text](image.png)
+![alt text](./images/7-etapa.png)
 
 8. Geração de cenários BDD (Given–When–Then)
 
