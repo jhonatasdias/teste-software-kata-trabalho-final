@@ -1,0 +1,35 @@
+{
+  "name": "teste-software-kata-trabalho-final",
+  "version": "1.0.0",
+  "description": "- Gerar testes unitários completos\r - Gerar testes com 100% de cobertura\r - Criar cenários BDD\r - Refatorar com Clean Code",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --runInBand",
+    "test:cov": "jest --runInBand --coverage",
+    "test:mutation": "stryker run",
+    "test:bdd": "npx cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhonatasdias/teste-software-kata-trabalho-final.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jhonatasdias/teste-software-kata-trabalho-final/issues"
+  },
+  "homepage": "https://github.com/jhonatasdias/teste-software-kata-trabalho-final#readme",
+  "devDependencies": {
+    "@stryker-mutator/core": "^9.4.0",
+    "@stryker-mutator/jest-runner": "^9.4.0",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^12.3.0"
+  }
+}
