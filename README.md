@@ -85,7 +85,7 @@ Cada persona forneceu respostas mais contextuais e especializadas, aumentando a 
 >
 > 4. Explique por que cada caso é importante.
 
-![alt text](./images/2-etapa.png.png)
+![alt text](./images/2-etapa.png)
 
 3. Gerar testes unitários Jest (primeiro round)
 
